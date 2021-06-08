@@ -1,0 +1,47 @@
+body {
+    background-color: #14131A;
+    color: #fff; /*Цвет текста*/
+    font-family: 'Roboto', sans-serif; /* Шрифт на странице*/
+}
+.conteiner {
+    max-width: 1140px; /*Ограничили шапку длинной 1140п*/
+    margin: auto; /* Выровняли шапку по центру*/
+}
+.header {
+    display: flex; /*Лого и меню распологаем в одну строку*/
+    align-items: center; /* Элементы располагаются по центру*/
+    padding-top: 40px; /*Отступ от верха страницы*/
+    margin-bottom: 80px; /*Отступ снизу*/
+    
+}
+.logo-link {
+    display: inline-block; /*Занимает места столько, сколько и сам логотип*/
+    margin-right: 50px; /*Отступ от логотипа в 50п*/
+}
+.nav-menu {
+    margin: 0; /* Внешние отступы*/
+    padding: 0; /* Внутренний отступ*/
+    list-style: none; /* Убираем точки в списке*/
+    display: flex; /*Располагаем элементы списка в одну строку*/
+}
+.nav-menu-item {
+    margin-right: 30px; /*Отступ в меню навигазии 30п справа у каждого элемента*/
+}
+.nav-menu-link {
+    text-decoration: none; /* Убираем подчеркивание ссылок*/
+    color: rgba(255, 255, 255, 0.5);
+}
+.film-date{
+    display: block; /*Делаем блок дта блочным, для переноса строки*/
+    font-size: 24px;
+    line-height: 28px; /* Межстрочный интервал*/
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 38px;
+}
+.film-description{
+    margin-top: 40px;
+    max-width: 423px;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.8);
+}
