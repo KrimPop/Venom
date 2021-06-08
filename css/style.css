@@ -1,7 +1,7 @@
 body {
-    background-color: #14131A;
+    background-color: #14131a;
     color: #fff; /*Цвет текста*/
-    font-family: 'Roboto', sans-serif; /* Шрифт на странице*/
+    font-family: "Roboto", sans-serif; /* Шрифт на странице*/
 }
 .conteiner {
     max-width: 1140px; /*Ограничили шапку длинной 1140п*/
@@ -12,7 +12,6 @@ body {
     align-items: center; /* Элементы располагаются по центру*/
     padding-top: 40px; /*Отступ от верха страницы*/
     margin-bottom: 80px; /*Отступ снизу*/
-    
 }
 .logo-link {
     display: inline-block; /*Занимает места столько, сколько и сам логотип*/
@@ -31,14 +30,14 @@ body {
     text-decoration: none; /* Убираем подчеркивание ссылок*/
     color: rgba(255, 255, 255, 0.5);
 }
-.film-date{
+.film-date {
     display: block; /*Делаем блок дта блочным, для переноса строки*/
     font-size: 24px;
     line-height: 28px; /* Межстрочный интервал*/
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 38px;
 }
-.film-description{
+.film-description {
     margin-top: 40px;
     max-width: 423px;
     font-size: 16px;
