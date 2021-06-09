@@ -7,6 +7,7 @@ body {
     max-width: 1140px; /*Ограничили шапку длинной 1140п*/
     margin: auto; /* Выровняли шапку по центру*/
 }
+/* Нав меню*/
 .header {
     display: flex; /*Лого и меню распологаем в одну строку*/
     align-items: center; /* Элементы располагаются по центру*/
@@ -30,6 +31,7 @@ body {
     text-decoration: none; /* Убираем подчеркивание ссылок*/
     color: rgba(255, 255, 255, 0.5);
 }
+/*Секция о фильме*/
 .film-date {
     display: block; /*Делаем блок дта блочным, для переноса строки*/
     font-size: 24px;
@@ -43,4 +45,42 @@ body {
     font-size: 16px;
     line-height: 140%;
     color: rgba(255, 255, 255, 0.8);
+}
+/*Секция кнопок*/
+.button {
+    padding: 15px 30px; /*Внутренние отступы сверху/снизу 15п, по краям 30п*/
+    border: none; /*Отключение обводки кнопки*/
+    border-radius: 5px; /*Скругление углов кнопки*/
+    text-decoration: none; /*Убираем подчеркивание у ссылок*/
+    cursor: pointer; /*Меняет курсор на палец*/
+}
+.button-img,
+.button-text {
+    display: inline-block;
+    vertical-align: middle; /*выравниваем иконку с текстом по вертикале*/
+}
+.button-text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+.button-primary {
+    color: #8d0019;
+    background-color: #fff;
+}
+.button-link {
+    color: #fff;
+}
+.button-group {
+    margin-top: 70px;
+}
+.venom {
+    position: absolute; /*Абсолютное позиционирование*/
+    top: 0;
+    right: 0;
+}
+.blood {
+    background: url("../img/blood.png") no-repeat top right,
+        #14131a url("../img/background.jpg") no-repeat center/100%; /*Картинка для заднего фона, не повторяется и расположена сверху справа
+                                                                        Вторая картинка занимает 100% ширины и имеет фон где нет картинки*/
 }
